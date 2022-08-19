@@ -1,6 +1,6 @@
 import React from 'react'
 import homeImage from '../img/savings.png'
-import section2 from '../components/Section2'
+import homeIcon from '../img/home.png'
 
 function Home() {
   return (
@@ -15,14 +15,23 @@ function Home() {
         </div>
         <div className='con-img'>
         
-          <img src={homeImage} />
+          <img src={homeImage} alt='savings'/>
           <br></br>
           <p>All <span>Valenzuela City Employees</span> are qualified to be members</p>
         
         </div>
       </div>
+      <a className='homeIcon' href='#Home'>
+       <img src={homeIcon} width='50px' alt='HomeIcon'/>
+      </a>
+
       <div>
-         {section2()}
+         <section id='section2'>
+          section2
+         </section>
+         <section id='section3'>
+          section3
+         </section>
       </div>
     </>
 

@@ -178,8 +178,23 @@ nav .close .barClose{
 .con-img p span{
     color: #ff7300;
 }
+.homeIcon{
+    border-radius: 50%;
+    padding: 10px;
+    background: #005eab;
+    cursor: pointer;
+    display: flex;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 2;
+    transition: .2s ease-in-out;
+}
+.homeIcon:hover{
+    background: #00345f;
+}
 /* section 2 */
-.section2{
+#section2{
     display: flex;
     height: 100vh;
     align-items: center;
