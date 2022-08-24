@@ -95,12 +95,106 @@ nav .close .barClose{
 }
 
 
-/* ------------------------------------------- */
-.forms{
+/* ----------------FORM--------------------------- */
+.sub-con{
+    position: relative;
+    width: 100%;
+    padding:80px 0;
+    background: linear-gradient(to right, #9fa1f5, rgb(105, 24, 235));
+}
+.sub-con .con-form{
+	display: grid;
+	grid-template-columns: repeat(3, minmax(300px,1fr));
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	background: rgba(0,0,0,0.2);
+    padding: 10px;
+	width: 80%;
+    margin: auto;
+}
+.sub-con .requirements{
     display: flex;
-    height: 100vh;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    background: rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.requirements h2{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+.requirements ul{
+    width: 80%;
+    margin: auto;
+}
+.requirements ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    color: aqua;
+    columns: 2;
+}
+
+.con-form .form{
+	position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 100%;
+}
+
+.form .form-name{
+	position: absolute;
+	display: block;
+	bottom: 0;
+	width: 100%;
+	height: 3rem;
+	color: #000;
+	background: rgba(159,255,255,0.5);
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 0.75rem;
+	font-size: 20px;
+}
+
+.form .download{
+	position:absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 2rem;
+	color: #fff;
+	text-shadow: 0 0 3px #fff;
+	background: rgba(0,0,0,0.5);
+	margin-bottom: 3rem;
+	opacity: 0;
+	text-decoration: none;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+	
+}
+
+.form .download:hover{
+	opacity: 1;
+
+}
+
+.form img{
+	width: 100%;
+	height: 100%;
+	
 }
 
 /* ------------------------------------------- */
@@ -169,7 +263,7 @@ nav .close .barClose{
     height: 100%;
 }
 .con-img img{
-    max-width: 800px;
+    max-width: 650px;
     max-height: 400px;
 }
 .con-img p{
