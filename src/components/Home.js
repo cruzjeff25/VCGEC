@@ -21,9 +21,7 @@ function Home() {
         
         </div>
       </div>
-      <a className='homeIcon' href='#Home'>
-       <img src={homeIcon} width='50px' alt='HomeIcon'/>
-      </a>
+
 
       <div>
          <section id='section2'>

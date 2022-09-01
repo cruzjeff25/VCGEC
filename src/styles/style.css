@@ -52,7 +52,7 @@ nav li .link{
     padding-bottom: 8px;
     border-radius: 2px;
     background: 
-      linear-gradient(to right, #fa9746, #fff) 
+      linear-gradient(to right, #005eab, #fff) 
         bottom /var(--d, 0) 2.5px
         no-repeat;
         transition:0.4s;
