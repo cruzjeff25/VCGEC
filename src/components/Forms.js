@@ -4,7 +4,7 @@ import form from '../img/form.png'
 const Forms = () => {
   return (
 
-	<div className="body">
+	<div className="formBody">
 
 		 <div className="requirements">
 			<h2>Loan requirements</h2>
