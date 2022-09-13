@@ -52,7 +52,7 @@ nav li .link{
     padding-bottom: 8px;
     border-radius: 2px;
     background: 
-      linear-gradient(to right, #fa9746, #fff) 
+      linear-gradient(to right, #bfe3ff, #fff) 
         bottom /var(--d, 0) 2.5px
         no-repeat;
         transition:0.4s;
@@ -102,85 +102,120 @@ nav .close .barClose{
     height: 100vh;
     align-items: center;
     justify-content: center;
+    animation: fadeIn 1s ease;
 }
 
 
 /* ---------------------Home---------------------- */
 
 .con-home{
+    display: flex;
     height: 100vh;
-    position: relative;
-    display: grid;
-    grid-template-columns: 5fr 4fr;
     width: 100%;
     /* background: linear-gradient(to right, rgb(32, 0, 92), rgb(187, 163, 233)); */
     background: url(../img/background.png)center center/cover;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: #000 solid 2px;
 }
 .con-home .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2.5rem;
+    width: 50%;
     animation: fadeIn 2s ease;
 }
-.container .con-text{
-    width: 70%;
+.col1, .col2{ 
+    margin: 5rem 0rem;
+    padding: 3rem;
     text-align: center;
 }
-.con-text h2{
+
+/*  */
+.col1 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3rem;
     margin-bottom: 10px;
+    margin-top: 5.5rem;
+    font-weight: bolder;
+
 } 
-.con-text p{
+.col1 p{
+    margin-top: 1rem;
     font-size: 1rem;
-    animation: transitionIn2 2.5s ease;
+    animation: transitionIn 2.5s ease;
 }
-.con-text button{
+.col1 button{
     font-weight:bolder;
     margin: 2rem;
     height: 3rem;
     width: 10rem;
-    background: #e40000;
+    background: #da0000;
     cursor: pointer;
     border-radius: 5px;
     transition: .4s ease-in-out;
+    box-shadow: 6px 6px 1px rgb(193, 193, 193);
 }
-.con-text button a{
+.col1 button a{
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
 }
-.con-text button:hover{
+.col1 button:hover{
     width: 11rem;
-    background: #950000;
+    background: #003764;
 }
-.con-home .con-img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20vh;
-    animation: fadeIn 2s ease;
+/*  */
+.col2 img{
+    max-width: 585px;
 }
-.con-img img{
-    max-width: 650px;
-    max-height: 400px;
-}
-.con-img p{
-    font-size: 1.1rem;
+.col2 p{
+    margin-top: 2rem;
+    font-size: 1rem;
     animation: transitionIn 2.5s ease;
 }
-.con-img p span{
-    color: #ff0000;
+.col2 p span{
+    color: #e40000;
+}
+.sec2-nav{
+    display: flex;
+    position: absolute;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    bottom: 1%;
+	width: 100%;
+    animation: transitionIn 2.5s ease;
+}
+.sec2-nav a{
+    font-size: 1.5rem;
+    color: #e40000;
+    text-decoration: none;
+    transition: .5s ease;
+}
+.sec2-nav:hover a{
+    font-size: 1.6rem;
+    color: #005eab;
 }
 
 /* section 2 */
 #section2{
     display: flex;
+    flex-direction: column;
+    height: 100vh;
+    animation: fadeIn 1s ease;
+}
+.section2-title{
+    margin-top: 6rem;
+    text-align: center;
+}
+
+
+/* section 3 */
+#section3{
+    display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
     border-top: #000 2px solid;
+    animation: fadeIn 1s ease;
 
 }
 
@@ -189,22 +224,28 @@ nav .close .barClose{
 
   
 .formBody{
-    background:  rgba(44, 9, 247, 0.5);
+    justify-content: center;
+    align-content: center;
+    animation: fadeIn 1s ease;
+    background: rgb(237, 237, 237);
 }
 .formBody .name{
     margin-top: -10px;
     text-align: center;
     padding: 10px;
-    background: rgba(0,0,0,0.2);
+    /* background: rgba(0,0,0,0.2); */
 
 }
  .con-form{
 	display: grid;
-	grid-template-columns: repeat(3, minmax(300px,1fr));
-    grid-column-gap: 5px;
-    padding: 10px;
-	width: 80%;
-    margin: auto;
+	grid-template-columns: repeat(5, minmax(200px,1fr));
+    grid-column-gap: 10px;
+    padding: 30px;
+	width: 100%;
+    justify-content: center;
+    align-items: center;
+    animation: transitionIn 1s ease-in;
+    
 }
  .requirements{
     display: flex;
@@ -212,14 +253,14 @@ nav .close .barClose{
     align-items: center;
     width: 100%;
     flex-direction: column;
-    background: rgba(0,0,0,0.2);
     margin-bottom: 10px;
     padding-top: 90px ;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background: #fff;
+    color: #000;
 }
 .requirements h2{
     width: 40%;
-    color: rgb(0, 0, 0);
     text-align: center;
     text-transform: capitalize;
     font-size: 2.5rem;
@@ -236,9 +277,8 @@ nav .close .barClose{
 
 }
 .requirements ul li{
-    list-style: none;
+    list-style: circle;
     font-size: 1.2rem;
-    color: aqua;
 }
 
 .con-form .form{
@@ -257,12 +297,14 @@ nav .close .barClose{
 	width: 100%;
 	height: 3rem;
 	color: #000;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-weight: bold;
 	text-align: center;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	padding-top: 0.75rem;
-	font-size: 20px;
+	font-size: 18px;
+    background: rgba(107, 107, 107, 0.5);
+    text-decoration: underline;
 }
 .form .download{
 	position:absolute;
@@ -294,7 +336,7 @@ nav .close .barClose{
 .form img{
 	width: 100%;
 	height: 100%;
-	border: 10px solid rgba(0,0,0,0.5);
+	border: 6px solid rgba(0,0,0);
 }
 
 
@@ -307,6 +349,7 @@ nav .close .barClose{
     height: 100vh;
     align-items: center;
     justify-content: center;
+    animation: fadeIn 1s ease;
 }
 .contact-sec{
     color: #000;
@@ -424,15 +467,15 @@ footer .footerLogo{
 
 /*  Key Frames */
 
+/* @keyframes transitionIn{
+    0% {opacity: 0; transform:translateY(50px);}
+    35% {opacity: 0; transform:translateY(50px);}
+    100% {opacity: 1; transform:translateY(0px); }
+} */
 @keyframes transitionIn{
-    0% {opacity: 0; transform:translateX(50px);}
-    35% {opacity: 0; transform:translateX(50px);}
-    100% {opacity: 1; transform:translateX(0px); }
-}
-@keyframes transitionIn2{
-    0% {opacity: 0; transform:translateX(-50px);}
-    40% {opacity: 0; transform:translateX(-50px);}
-    100% {opacity: 1; transform:translateX(0px); }
+    0% {opacity: 0; transform:translateY(-12px);}
+    40% {opacity: 0; transform:translateY(-12px);}
+    100% {opacity: 1; transform:translateY(0px); }
 }
 
 @keyframes fadeIn{
@@ -441,7 +484,7 @@ footer .footerLogo{
 }
 
 
-@media(max-width: 1100px){
+@media(max-width: 1280px){
     nav ul{
         display: none;
 
@@ -465,6 +508,7 @@ footer .footerLogo{
     }
     .nav_active ul li{
         margin: 5rem;
+        animation: fadeIn 1.5s ease;
     }
     .nav_active ul li .link{
         font-size: 16px;
@@ -481,12 +525,34 @@ footer .footerLogo{
 
 /* ------------------------------------------- */
 
-    .con-home{
-        grid-template-columns: 1fr;
+    .con-home .container{
+        height: 50%;
+        width: 100%;
     }
-    .con-home .img{
+    .con-home .container h2{
+        margin-top: .5rem;
+        font-size: 2rem;
+    }
+    .con-home button{
+        height: 2rem;
+        width: 8rem;
+    }
+    .con-home button a{
+        font-size: large;
+    }
+    .con-home .col2{
+        margin-top: 0%;
+    }
+    .con-home .col2 img{
         display: none;
+    } 
+    .con-home .sec2-nav a{
+        font-size: 1rem;
     }
+    .con-home .sec2-nav a:hover{
+        font-size: 1.5rem;
+    }
+    
 /* ------------------------------------------- */
     .body .name{
         font-size: 1.5rem;
@@ -495,7 +561,7 @@ footer .footerLogo{
         grid-template-columns: repeat(2, minmax(100px,1fr)); 
     }
     .form .form-name{
-        font-size: 0.5rem;
+        font-size: .8rem;
     }
     .form .download{
         font-size: 1rem;
