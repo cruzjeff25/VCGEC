@@ -420,6 +420,9 @@ nav .close .barClose{
 	padding: 10px;
 	letter-spacing: 1px;
 }
+.contact-subcon label{
+    color: #e40000;
+}
 .contact-form .con-button{
 	display: flex;
     justify-content: center;
