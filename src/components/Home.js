@@ -28,21 +28,45 @@ function Home() {
       </div>
 
       <section id='section2'>
-          <h3 className='section2-title'>Services Offered</h3>
-          <div>
-            <h4>Regular Loans</h4>
-            <ul>
-              <li>Productivity Loan</li>
-              <li>Educational Loan</li>
-              <li>Travel Loan</li>
-              <li>MIGS</li>
-              <li>1 COOP</li>
-              <li>Commodity Loan</li>
-              <li>Emergency/Calamity Loan</li>
-              <li>Rediscounting</li>
-              <li>Promo</li>
-              <li>Motorcycle</li>
-            </ul>
+          <h3 className='section2-title'>Services</h3>
+          <p>VCGEC Offered Regular Loans, Special Loans, Mutual Benefit Assistance, Member Incentive, Scholarship Program and Livelihood Programs</p>
+          <div className='container'>
+            <div className='row1'>
+              <ul>
+                <h4>Regular Loans</h4>
+                <li>Productivity Loan</li>
+                <li>Educational Loan</li>
+                <li>Travel Loan</li>
+                <li>MIGS</li>
+                <li>1 COOP</li>
+                <li>Commodity Loan</li>
+                <li>Emergency/Calamity Loan</li>
+                <li>Promo</li>
+                <li>Motorcycle</li>
+              </ul>
+              <ul>
+                <h4>Special Loans</h4>
+                <li>Mid Year</li>
+                <li>Year End</li>
+                <li>Dividend</li>
+                <li>Clothing Allowance</li>
+              </ul>
+            </div>
+            <div className='row2'>
+              <ul>       
+                <h4>Loan Proceeds Thru</h4>
+                <li>Cheque</li>
+                <li>ATM</li>
+              </ul>
+              <ul>       
+                <h4>High Interest Rates On</h4>
+                <li>Savings Deposit</li>
+                <li>Time Deposit</li>
+                <li>Interest on Share Capital</li>
+                <li>Patronage Refund</li>
+              </ul>
+
+            </div>
           </div>
 
           

@@ -3,6 +3,7 @@ import { Outlet, Link } from 'react-router-dom'
 import logo from '../img/VCGEC.png'
 
 
+
 function Layout (){
   const [active, setActive] = useState(false);
 
