@@ -1,5 +1,5 @@
 const NoPage = () => {
-    return <h1 className="nopage"> Error 404</h1>;
+    return <h4 className="nopage"> Error 404 page not found</h4>;
   };
   
   export default NoPage;
