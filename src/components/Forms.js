@@ -20,52 +20,52 @@ const Forms = () => {
 		<div className="con-form" >			
 			<div className="form" >
 				<h2 className="form-name" id="form-name">Productivity Loan</h2>
-				<a href={pdf} target='_blank' class="download" download>Download</a>
+				<a href={pdf} target='_blank' rel="noreferrer noopener" class="download" download>Download</a>
 				<img src={form} alt="form" />
 				</div>
 			<div className="form" >
 				<h2 className="form-name" id="form-name">Educational Loan</h2>
-				<a href={pdf} target="_blank" class="download" download>Download</a>
+				<a href={pdf} target="_blank" rel="noreferrer noopener" class="download" download>Download</a>
 				<img src={form} alt="form" />
 				</div>
 			<div className="form" >
 				<h2 className="form-name" id="form-name">Travel Loan</h2>
-				<a href={pdf} target='_blank' class="download" download>Download</a>
+				<a href={pdf} target='_blank' rel="noreferrer noopener" class="download" download>Download</a>
 				<img src={form} alt="form" />	
 			</div>
 			<div className="form" >
 				<h2 className="form-name" id="form-name">MIGS</h2>
-				<a href={pdf} target='_blank' class="download" download>Download</a>
+				<a href={pdf} target='_blank' rel="noreferrer noopener" class="download" download>Download</a>
 				<img src={form} alt="form" />
 			</div>
 			<div className="form" >
 				<h2 className="form-name" id="form-name">1 COOP</h2>
-				<a href={pdf} target='_blank' class="download" download>Download</a>
+				<a href={pdf} target='_blank' rel="noreferrer noopener" class="download" download>Download</a>
 				<img src={form} alt="form" />
 			</div>
 			<div className="form" >
 				<h2 className="form-name" id="form-name">Commodity Loan</h2>
-				<a href={pdf} target='_blank' class="download" download>Download</a>
+				<a href={pdf} target='_blank' rel="noreferrer noopener" class="download" download>Download</a>
 				<img src={form} alt="form" />
 			</div>
 			<div className="form" >
 				<h2 className="form-name" id="form-name">Emergency/Calamity</h2>
-				<a href={pdf} target='_blank' class="download" download>Download</a>
+				<a href={pdf} target='_blank' rel="noreferrer noopener" class="download" download>Download</a>
 				<img src={form} alt="form" />
 			</div>
 			<div className="form" >
 				<h2 className="form-name" id="form-name">Rediscounting</h2>
-				<a href={pdf} target='_blank' class="download" download>Download</a>
+				<a href={pdf} target='_blank' rel="noreferrer noopener" class="download" download>Download</a>
 				<img src={form} alt="form" />
 			</div>
 			<div className="form" >
 				<h2 className="form-name" id="form-name">Promo</h2>
-				<a href={pdf} target='_blank' class="download" download>Download</a>
+				<a href={pdf} target='_blank' rel="noreferrer noopener" class="download" download>Download</a>
 				<img src={form} alt="form" />
 			</div>
 			<div className="form" >
 				<h2 className="form-name" id="form-name">Motorcycle</h2>
-				<a href={pdf} target='_blank' class="download" download>Download</a>
+				<a href={pdf} target='_blank' rel="noreferrer noopener" class="download" download>Download</a>
 				<img src={form} alt="form" />
 			</div>
 
@@ -74,7 +74,7 @@ const Forms = () => {
 		<div className="con-form" >			
 			<div className="form" >
 				<h2 className="form-name" id="form-name">FORM 1</h2>
-				<a href={pdf} target='_blank' class="download" download>Download</a>
+				<a href={pdf} target='_blank' rel="noreferrer noopener" class="download" download>Download</a>
 				<img src={form} alt="form" />
 				</div>
 			<div className="form" ></div>

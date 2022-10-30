@@ -2,7 +2,6 @@
 @media(max-width: 1280px){
     nav ul{
         display: none;
-
     }
     nav .burger {
         display: block;
@@ -40,6 +39,9 @@
 
 /* ------------------------------------------- */
 
+    .con-home{
+        flex-direction: column;
+    }
     .con-home .container{
         height: 50%;
         width: 100%;
@@ -56,7 +58,7 @@
         font-size: large;
     }
     .con-home .col2{
-        margin-top: 0%;
+        margin-top: 6%;
     }
     .con-home .col2 img{
         display: none;
@@ -67,23 +69,44 @@
     .con-home .sec2-nav a:hover{
         font-size: 1.5rem;
     }
+
+
     /* section2 */
     #section2{
-        height: 140vh;
+        height: 165%;
         margin: 1rem;
     }
     #section2 .container{
         flex-direction: column;
     }
 
-    #section2 li{
-        font-size: .9rem;
+    #section2 ul li{
+        font-size: .8rem;
     }
     #section2 p{
         font-size: .8rem;
         line-height: 1.5rem;
         margin: 1rem 8% 0 8%;
     }
+
+    /* Section3 */
+    #section3{
+        height: 190%;
+    }
+    #section3 .container{
+        flex-direction: column;
+    }
+    #section3 .col,  #section3 .col-1{
+        margin: 2rem;
+    }
+    #section3 img{
+        width: 350px;
+    }
+    #section3 .computation{
+        margin: 1rem 2.5rem;
+    }
+
+
 /* -----------------form-------------------------- */
     .con-form{
         grid-template-columns: repeat(2, minmax(100px,1fr)); 
