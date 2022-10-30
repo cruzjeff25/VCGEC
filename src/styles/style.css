@@ -60,6 +60,9 @@ nav li .link{
 nav li .link:hover{
     --d: 100%;
 }
+nav li .link:active{
+  transform: translateY(-4px);
+}
 nav .burger{
     display: none;
     position: absolute;
@@ -96,14 +99,140 @@ nav .close .barClose{
 
 
 
-/* ------------------------------------------- */
-.about{
+/* ------------------ABOUT------------------------- */
+.about-container{
     display: flex;
-    height: 100vh;
+    justify-content: top;
     align-items: center;
-    justify-content: center;
-    animation: fadeIn 1s ease;
+    flex-direction: column;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    background: #a50000;
+	animation-name: flipAnimation;
+	animation-duration: 0.5s;
+	animation-timing-function: ease;
+    margin-bottom: 40px;
 }
+@keyframes flipAnimation{
+	from{
+		transform: scaleX(0);
+
+	}
+	to{
+		transform: scaleX(1);
+		
+	}
+	
+}
+.about-container .about-sub-container{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background: #fff;
+}
+.about-sub-container h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #000;
+    width: 70%;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    flex-shrink: 4;
+    transition: 0.5s linear;
+}
+.about-sub-container h2:active{
+    transform: translateY(-4px);
+    background: #002d52;
+  }
+
+.about-sub-container .active{
+    background: #002d52;
+    color: #fff;
+    border-radius: 50px;
+    flex-shrink: 1;
+    
+}
+.about-container .desc-container{
+    width: 80%;
+    text-align: justify;
+    padding-top: 20px;
+    cursor: default;
+}
+.desc-container p{
+    font-size: 2.5rem;
+    color: #fff;
+    transition: width 1 ease-in-out;
+}
+.team-container .header-container{
+    width: 100%;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.header-container h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+.header-container p{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.header-container hr{
+    width: 80%;
+    height: 5px;
+    margin: auto;
+    background: #000;
+    border-radius: 50%;
+}
+.profile-container{
+    width: 80%;
+    margin: auto;
+    
+}
+details{
+    width: 90%;
+    margin: auto;
+}
+summary{
+    cursor: pointer;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+details .sub-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.sub-container .profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.profile img{
+    width: 150px;
+    height: 170px;
+}
+.profile .name{
+    font-weight: 900;
+    font-size: 1rem;
+}
+.profile .resp{
+    font-size: 0.8rem;
+}
+
 
 
 /* ---------------------Home---------------------- */
