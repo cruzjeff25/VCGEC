@@ -9,12 +9,21 @@ const Forms = () => {
 
 		 <div className="requirements">
 			<h2>Loan requirements</h2>
-			<ul>
-				<li> Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-				<li> Lorem ipsum dolor sit.</li>
-				<li> Lorem ipsum dolor sit amet.</li>
-			</ul>
-
+			<div className="req-con">
+				<div>
+					<h3>For Cheque</h3>
+					<ul>	
+						<li><p>Photocopy of the Latest Payslip</p></li>
+					</ul>
+				</div>
+				<div>
+					<h3>For ATM</h3>
+					<ul>	
+						<li><p>Photocopy of the Latest Payslip</p></li>
+						<li><p>Photocopy of the ATM (Back & Front)</p></li>
+					</ul>
+				</div>
+			</div>
 		 </div>
 		<h2 className="name">Regular Loan </h2>
 		<div className="con-form" >			

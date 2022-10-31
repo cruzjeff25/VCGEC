@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -200,12 +200,13 @@ details{
     width: 90%;
     margin: auto;
 }
-summary{
+details summary{
     cursor: pointer;
     text-align: left;
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 20px;
+    width: 100%;
 }
 details .sub-container{
     display: flex;
@@ -402,15 +403,35 @@ details .sub-container{
     margin-bottom: 10px;
     
 }
-.requirements ul{
-    width: 60%;
-    margin:auto;
-    margin-bottom: 30px;    
-
+.requirements .req-con{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
 }
-.requirements ul li{
-    list-style: circle;
-    font-size: 1.2rem;
+.req-con div{
+    width: 100%;
+}
+.req-con div h3{
+    font-size: 1rem;
+    text-align: right;
+}
+.req-con div ul{
+    margin-bottom: 30px;
+}
+.req-con div ul li{
+    list-style: none;
+    text-align: center;
+    white-space: nowrap;
+    
+}
+.req-con div ul li p{
+    font-size: 1rem;
+    width: 100%;
+}
+.req-con div  ul li p:before {
+    line-height: 2rem;
+    content: '✓ ';
 }
 
 .con-form .form{
@@ -703,6 +724,44 @@ footer .footerLogo{
         font-size: 16px;
         font-weight:bold;
     }
+    
+    .requirements .req-con{
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .req-con div h3{
+        text-align: center;
+        width: 100%;
+    }
+    .req-con div ul li p{
+        font-size: 0.8rem;
+    }
+    .desc-container p{
+        font-size: 1.5rem;
+        overflow-y: auto;
+    }
+    .header-container h2{
+        font-size: 2rem;
+    }
+    .header-container p{
+        font-size: 1.2rem;
+
+    }
+    details summary{
+        font-size: 1rem;
+    }
+    details .sub-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .about-container .about-sub-container{
+        width: 80%;
+    }
+    .about-sub-container h2{
+        font-size: 1.5rem;
+        padding: 10px;
+    }
 }
     *{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -803,15 +862,8 @@ footer .footerLogo{
 
 
 
-    /* ------------------------------------------- */
-    .about{
-        display: flex;
-        height: 100vh;
-        align-items: center;
-        justify-content: center;
-        animation: fadeIn 1s ease;
-    }
 
+  
 
     /* ---------------------Home---------------------- */
 
@@ -819,10 +871,10 @@ footer .footerLogo{
         display: flex;
         height: 100vh;
         width: 100%;
-        /* background: linear-gradient(to right, rgb(32, 0, 92), rgb(187, 163, 233)); */
         background: url(../img/background.png)center center/cover;
         align-items: center;
-        flex-direction: row;
+        justify-content: center;
+        flex-direction: column;
         box-shadow: 2px 2px 6px 0 rgba(0,0,0,0.40);
     }
     .con-home .container{
@@ -1058,6 +1110,7 @@ footer .footerLogo{
         
     }
     .requirements{
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1068,6 +1121,7 @@ footer .footerLogo{
         border-bottom: 2px solid rgb(255, 255, 255);
         background: #fff;
         color: #000;
+        
     }
     .requirements h2{
         width: 40%;
@@ -1077,8 +1131,19 @@ footer .footerLogo{
         border-bottom: 2px solid #002441;
         border-radius: 10%;
         padding-bottom: 10px;
-        margin-bottom: 10px;
-        
+        margin-bottom: 10px; 
+    }
+    .requirements h3{
+        font-size: 1.5rem;
+        text-align: left;
+        width: 60%;
+    }
+    .requirements img{
+        position: absolute;
+        bottom: 0;
+        right: 40%;
+        width: 200px;
+        height: 200px;
     }
     .requirements ul{
         width: 60%;
@@ -1087,7 +1152,7 @@ footer .footerLogo{
 
     }
     .requirements ul li{
-        list-style: circle;
+        list-style: none;
         font-size: 1.2rem;
     }
 
