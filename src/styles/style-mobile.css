@@ -40,11 +40,10 @@
 /* ------------------------------------------- */
 
     .con-home{
-        flex-direction: column;
     }
     .con-home .container{
-        height: 50%;
         width: 100%;
+        flex-direction: column;
     }
     .con-home .container h2{
         margin-top: 16%;
@@ -58,7 +57,7 @@
         font-size: large;
     }
     .con-home .col2{
-        margin-top: 6%;
+        padding: 1rem 2rem;
     }
     .con-home .col2 img{
         display: none;
@@ -124,6 +123,44 @@
     }
     .requirements ul li{
         font-size: 0.8rem;
+    }
+    .requirements .req-con{
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .req-con div h3{
+        text-align: center;
+        width: 100%;
+    }
+    .req-con div ul li p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .desc-container p{
+        font-size: 1.5rem;
+        overflow-y: auto;
+    }
+    .header-container h2{
+        font-size: 2rem;
+    }
+    .header-container p{
+        font-size: 1.2rem;
+
+    }
+    details summary{
+        font-size: 1rem;
+    }
+    details .sub-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .about-container .about-sub-container{
+        width: 80%;
+    }
+    .about-sub-container h2{
+        font-size: 1.5rem;
+        padding: 10px;
     }
 
 /* ---------------------- */

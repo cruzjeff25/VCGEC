@@ -15,15 +15,16 @@ function Home() {
               <p>"Stable and progressive life towards abundance"</p>  
               <button><a href='#section3'>Join Now!</a></button>
             </div>
-
-          </div>
-
-
+            
             <div className='col2'>
               <img src={homeImage} alt='savings'/>
               <br></br>
               <p>All <span>Valenzuela City Government Employees</span> are qualified to be members</p>
             </div>
+
+
+          </div>
+
 
           <div className='sec2-nav'><a href='#section2'>&darr; Services Offered &darr;</a></div>
 
@@ -82,7 +83,7 @@ function Home() {
           <div className='col'>
            <img src={member} alt='members' width="450px"/>
            <h4>For inquiries visit or<Link className='link' to="/Contact">Contact Us</Link></h4>
-           <a href={pdf} target='_blank' rel="noreferrer noopener" class="download" download>Download Membership Application Form</a>
+           <a href={pdf} target='_blank' rel="noreferrer noopener" className="download" download>Download Membership Application Form</a>
           </div>
 
           <div className='col-1'>
