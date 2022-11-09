@@ -40,8 +40,10 @@
 /* ------------------------------------------- */
 
     .con-home{
+
     }
     .con-home .container{
+        margin-bottom: 0;
         width: 100%;
         flex-direction: column;
     }
@@ -56,6 +58,9 @@
     .con-home button a{
         font-size: large;
     }
+    .con-home .col1{
+        padding: 2rem;
+    }
     .con-home .col2{
         padding: 1rem 2rem;
     }
@@ -66,7 +71,7 @@
         font-size: 1rem;
     }
     .con-home .sec2-nav a:hover{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
 
@@ -96,7 +101,7 @@
         flex-direction: column;
     }
     #section3 .col,  #section3 .col-1{
-        margin: 2rem;
+        margin: 2.5rem 0;
     }
     #section3 img{
         width: 350px;
@@ -109,6 +114,15 @@
 /* -----------------form-------------------------- */
     .con-form{
         grid-template-columns: repeat(2, minmax(100px,1fr)); 
+    }
+    .box-bg{
+        padding: .8rem;
+    }
+    .box-bg h2{
+        font-size: 1.5rem;
+    }
+    .box-bg p{
+        font-size: .8rem;
     }
     .form .form-name{
         font-size: .8rem;
@@ -165,24 +179,27 @@
 
 /* ---------------------- */
     .contact{
-        height: 100vh;
+        height: 200vh;
+        flex-direction: column;
     }
     .contact .con-left, .contact .con-right{
+        padding: 0;
         width: 100%;
     }
     .con-left h2{
         font-size: 2rem;
         margin-bottom: .5rem;
     }
-    .con-left p{
-        font-size: 1rem;
-        margin-bottom: 2rem;
-    }
     .con-left ul li{
-        margin: 1rem;
         list-style: none;
         color: #fff;
         font-size: 1rem;
     }
+    .con-right input{
+        width: 130px;
+        font-size: .8rem;
+    }
+
+    
 
 }

@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    box-sizing: border-box;
 }
 
 
@@ -106,15 +105,16 @@ nav .close .barClose{
     justify-content: top;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 50vh;
     width: 80%;
     margin: auto;
     padding-top: 80px;
-    background: #a50000;
+    background: linear-gradient(to right, #430000d7, #e40000e2);
 	animation-name: flipAnimation;
-	animation-duration: 0.5s;
+	animation-duration: .8s;
 	animation-timing-function: ease;
-    margin-bottom: 40px;
+    padding-top: 8rem;
+    border-radius: 8px;
 }
 @keyframes flipAnimation{
 	from{
@@ -137,22 +137,22 @@ nav .close .barClose{
 }
 .about-sub-container h2{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #000;
     width: 70%;
     padding: 20px;
     cursor: pointer;
     border-radius: 50px;
     flex-shrink: 4;
-    transition: 0.5s linear;
+    transition: 0.5s ease;
 }
 .about-sub-container h2:active{
     transform: translateY(-4px);
-    background: #002d52;
+    background: #004882;
   }
 
 .about-sub-container .active{
-    background: #002d52;
+    background: #004882;
     color: #fff;
     border-radius: 50px;
     flex-shrink: 1;
@@ -165,10 +165,40 @@ nav .close .barClose{
     cursor: default;
 }
 .desc-container p{
-    font-size: 2.5rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.5rem;
     color: #fff;
     transition: width 1 ease-in-out;
 }
+/* ----- */
+.accreditation{
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.accreditation li{
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+/* ----- */
+.achievements{
+    display: flex;
+    height: 120vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20%;
+}
+.achievements li{
+    text-align: left;
+    line-height: 1.8rem;
+}
+
+/* ----- */
 .team-container .header-container{
     width: 100%;
     background: #fff;
@@ -241,17 +271,18 @@ details .sub-container{
 
 .con-home{
     display: flex;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     /* background: linear-gradient(to right, rgb(32, 0, 92), rgb(187, 163, 233)); */
     background: url(../img/background.png)center center/cover;
     flex-wrap: wrap;
     align-items: center;
-    /* border-bottom: #000 solid 2px; */
+    box-shadow: 2px 2px 6px 0 rgba(0,0,0,0.40);
+
 }
 .con-home .container{
     display: flex;
-    margin-bottom: 5rem;
+    margin-top: 5rem;
     width: 100%;
     animation: fadeIn 1.5s ease;
 }
@@ -311,14 +342,12 @@ details .sub-container{
 }
 .sec2-nav{
     display: flex;
-    position: absolute;
-    padding: 1.5rem;
     justify-content: center;
     align-items: center;
     width: 100%;
-    bottom: 5%;
     animation: transitionIn 2s ease;
     cursor: pointer;
+    margin-bottom: 6rem;
 }
 .sec2-nav a{
     font-size: 1.4rem;
@@ -327,7 +356,6 @@ details .sub-container{
     transition: .5s ease;
 }
 .sec2-nav:hover a{
-    font-size: 1.55rem;
     color: #005eab;
 }
 
@@ -434,7 +462,14 @@ details .sub-container{
     text-decoration: none;
     padding: .6rem;
     border-radius: 25px;
+    transition: .2s;
 }
+#section3 .download:hover{
+    background: #002d52;
+
+}
+
+
 /*  */
 #section3 .col-1{
     margin-top: 2rem;
@@ -462,20 +497,24 @@ details .sub-container{
     justify-content: center;
     align-content: center;
     animation: fadeIn 1s ease;
-    background: rgb(237, 237, 237);
 }
 .formBody .name{
-    margin-top: -10px;
+    margin-top: 10px;
     text-align: center;
     padding: 10px;
     /* background: rgba(0,0,0,0.2); */
 
 }
+.box-bg{
+    background: #eaeaf0;
+    box-shadow: 2px -2px 8px 0 rgba(0,0,0,0.40);
+    margin: 10px 12px;
+    padding: 4rem;
+}
  .con-form{
 	display: grid;
-	grid-template-columns: repeat(5, minmax(200px,1fr));
+	grid-template-columns: repeat(4, minmax(200px,1fr));
     grid-column-gap: 10px;
-    padding: 30px;
 	width: 100%;
     justify-content: center;
     align-items: center;
@@ -490,20 +529,26 @@ details .sub-container{
     flex-direction: column;
     margin-bottom: 10px;
     padding-top: 90px ;
-    border-bottom: 2px solid rgb(255, 255, 255);
-    background: #fff;
     color: #000;
 }
 .requirements h2{
     width: 40%;
     text-align: center;
     text-transform: capitalize;
-    font-size: 2.5rem;
-    border-bottom: 2px solid #002441;
-    border-radius: 10%;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    
+    margin: 20px;
+    color: #004882;
+}
+.requirements sub{
+    color: #a50000;
+}
+.box-bg p{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.box-bg h2{
+    color: #004882;
+    margin-bottom: 2.5rem;
 }
 .requirements .req-con{
     display: flex;
@@ -515,22 +560,24 @@ details .sub-container{
     width: 100%;
 }
 .req-con div h3{
+    text-align: center;
     font-size: 1rem;
-    text-align: left;
+    margin-top: 2.5rem;
 }
 .req-con div ul{
+    display: flex;
     margin-bottom: 30px;
+    align-items: center;
+    flex-direction: column;
 }
 .req-con div ul li{
     list-style: none;
-    text-align: center;
     white-space: nowrap;
     
 }
 .req-con div ul li p{
     font-size: 1rem;
     width: 100%;
-    text-align: left;
 }
 .req-con div  ul li p:before {
     line-height: 2rem;
@@ -548,19 +595,20 @@ details .sub-container{
 
 .form .form-name{
 	position: absolute;
-	display: block;
-	bottom: 0;
+	display: flex;
+    bottom: 0;
 	width: 100%;
 	height: 3rem;
-	color: #000;
+	color: rgba(255, 255, 255, 0.941);
 	letter-spacing: 1px;
 	font-weight: bold;
 	text-align: center;
 	/* text-transform: uppercase; */
-	padding-top: 0.75rem;
+	justify-content: center;
+    align-items: center;
 	font-size: 18px;
-    background: rgba(107, 107, 107, 0.5);
-    text-decoration: underline;
+    background: #a50000c4;
+    /* text-decoration: underline; */
 }
 .form .download{
 	position:absolute;
@@ -586,13 +634,12 @@ details .sub-container{
 
 .form .download:hover{
 	opacity: 1;
-
 }
 
 .form img{
 	width: 100%;
 	height: 100%;
-	border: 6px solid rgba(0,0,0);
+	border: 4px solid rgba(0,0,0);
 }
 
 
@@ -603,11 +650,9 @@ details .sub-container{
 .contact{
     display: flex;
     height: 100vh;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
     animation: fadeIn 1s ease;
 }
 .con-left, .con-right{
@@ -640,10 +685,10 @@ details .sub-container{
     color: #fff;
 }
 .con-left ul{
-    margin-bottom: 2rem;
+    padding: 5rem;
 }
 .con-left ul li{
-    margin: 1rem;
+    margin: 1rem 0;
     list-style: none;
     color: #fff;
     font-size: 1.2rem;
@@ -683,16 +728,18 @@ details .sub-container{
 .contact-form .contact-subcon{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
 
 }
 .contact-subcon .con-input{
     display: flex;
-    margin-top: 20px;   
+    margin-top: 20px;
+    
 }
 .con-input input{
     display: flex;
-    width: 100%;
+    width: 200px;
     height: 45px;
     background: linear-gradient(to right, #004882, #005eab);
     border: 2px inset #F0F8FF;
@@ -751,15 +798,7 @@ details .sub-container{
 }
 
 
-/* ------------------------------------------- */
-.nopage{
-    display: flex;
-    border-style: solid;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+
 /* ------------------------------------------- */
 footer{
     display: flex;
@@ -779,6 +818,7 @@ footer .footerLogo{
     right: 5%;
     opacity: .5;
 }
+
 /* ------------------------------------------- */
 .nopage{
     display: flex;
@@ -787,23 +827,7 @@ footer .footerLogo{
     align-items: center;
     justify-content: center;
 }
-/* ------------------------------------------- */
-footer{
-    display: flex;
-    background: rgb(220, 220, 220);
-    height: 12vh;
-    align-items: center;
-    justify-content: center;
-}
-footer p{
-    font-size: 12px;
-}
 
-footer .footerLogo{
-    position: absolute;
-    right: 5%;
-    opacity: .2;
-}
 
 /*  Key Frames */
 
