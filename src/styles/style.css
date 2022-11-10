@@ -114,7 +114,7 @@ nav .close .barClose{
 	animation-duration: .8s;
 	animation-timing-function: ease;
     padding-top: 8rem;
-    border-radius: 8px;
+    border-radius: 0 0 40% 40%;
 }
 @keyframes flipAnimation{
 	from{
@@ -178,6 +178,10 @@ nav .close .barClose{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0 20%;
+}
+.accreditation h2{
+    text-align: center;
 }
 .accreditation li{
     text-align: center;
@@ -258,6 +262,7 @@ details .sub-container{
     height: 170px;
 }
 .profile .name{
+    text-align: center;
     font-weight: 900;
     font-size: 1rem;
 }
@@ -810,6 +815,8 @@ footer{
     border-bottom: #000 1px solid;
 }
 footer p{
+    padding: 0 2rem;
+    text-align: center;
     font-size: 12.5px;
 }
 

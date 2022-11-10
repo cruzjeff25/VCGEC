@@ -46,10 +46,11 @@ function Home() {
               </ul>
               <ul>
                 <h4>Special Loans</h4>
+                <li>Clothing Allowance</li>
                 <li>Mid Year</li>
                 <li>Year End</li>
-                <li>Dividend</li>
-                <li>Clothing Allowance</li>
+                <li>Cash Gift / P.E.I.</li>
+                <li>Dividend</li>  
               </ul>
             </div>
             <div className='row2'>

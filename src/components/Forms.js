@@ -17,7 +17,7 @@ const Forms = () => {
 
 		<div className="requirements">
 			<h2>Loan requirements</h2>
-			<sub>*Forms must be printed back to back</sub>
+			<sub>*Forms must be printed back to back on legal size bond paper</sub>
 			<div className="req-con">
 				<div>
 					<h3>For PNB Cheque</h3>

@@ -64,37 +64,37 @@ const About = () => {
                 <div className="sub-container">
                   <div class="profile">
                     <img src={profile} alt="profle" />
-                    <p class="name">Juan T. Tamad</p>
+                    <p class="name">Name M.I. Surname</p>
                     <p class="resp">Chairman</p>
                   </div>
                   <div class="profile">
                     <img src={profile} alt="profle" />
-                    <p class="name">Juan T. Tamad</p>
+                    <p class="name">Name M.I. Surname</p>
                     <p class="resp">Vice Chairman</p>
                   </div>
                   <div  class="profile">
                     <img src={profile} alt="profle" />
-                    <p class="name">Juan T. Tamad</p>
+                    <p class="name">Name M.I. Surname</p>
                     <p class="resp">Director</p>
                   </div>
                   <div  class="profile">
                     <img src={profile} alt="profle" />
-                    <p class="name">Juan T. Tamad</p>
+                    <p class="name">Name M.I. Surname</p>
                     <p class="resp">Director</p>
                   </div>
                   <div  class="profile">
                     <img src={profile} alt="profle" />
-                    <p class="name">Juan T. Tamad</p>
+                    <p class="name">Name M.I. Surname</p>
                     <p class="resp">Director</p>
                   </div>
                   <div  class="profile">
                     <img src={profile} alt="profle" />
-                    <p class="name">Juan T. Tamad</p>
+                    <p class="name">Name M.I. Surname</p>
                     <p class="resp">Director</p>
                   </div>
                   <div  class="profile">
                     <img src={profile} alt="profle" />
-                    <p class="name">Juan T. Tamad</p>
+                    <p class="name">Name M.I. Surname</p>
                     <p class="resp">Director</p>
                   </div> 
                 </div>
@@ -106,7 +106,7 @@ const About = () => {
                     <div className="sub-container">
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">General Manager</p>
                       </div>
                     </div>
@@ -116,52 +116,52 @@ const About = () => {
                     <div className="sub-container">
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Loan Officer</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Internal Control</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Liaison Officer</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Verifier</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Verifier</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Verifier</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Payroll Clerk</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Payroll Clerk</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Payroll Clerk</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Maintenance Officer</p>
                       </div>
                     </div>                   
@@ -171,32 +171,32 @@ const About = () => {
                     <div className="sub-container">
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Accountant</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Bookkeeper</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Accounting Clerk</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Posting Clerk</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Audit Clerk</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Remittance Clerk</p>
                       </div>
                     </div>
@@ -209,17 +209,17 @@ const About = () => {
                     <div className="sub-container">
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Chairman</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Vice Chairman</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Secretary54rrrrrrrr=</p>
                       </div>
                     </div>
@@ -229,17 +229,17 @@ const About = () => {
                     <div className="sub-container">
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Chairman</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Vice Chairman</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Secretary</p>
                       </div>
                     </div>                   
@@ -249,17 +249,17 @@ const About = () => {
                   <div className="sub-container">
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Chairman</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Vice Chairman</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Secretary</p>
                       </div>
                     </div>       
@@ -269,17 +269,17 @@ const About = () => {
                   <div className="sub-container">
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Chairman</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Vice Chairman</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Secretary</p>
                       </div>
                     </div>       
@@ -289,17 +289,17 @@ const About = () => {
                   <div className="sub-container">
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Chairman</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Vice Chairman</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Secretary</p>
                       </div>
                     </div>       
@@ -309,37 +309,37 @@ const About = () => {
                     <div className="sub-container">
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Chairman</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Member</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Member</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Member</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Member</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Member</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Member</p>
                       </div>
                     </div>
@@ -350,12 +350,12 @@ const About = () => {
                     <div className="sub-container">
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Secretary</p>
                       </div>
                       <div class="profile">
                         <img src={profile} alt="profle" />
-                        <p class="name">Juan T. Tamad</p>
+                        <p class="name">Name M.I. Surname</p>
                         <p class="resp">Treasurer</p>
                       </div>
                     </div>
