@@ -12,7 +12,7 @@ function Layout (){
     <>
       <nav className={active ? "nav_active" : "nav"}>
         <Link to='/'><div className='logo'></div></Link>
-        <ul className='nav_menu' onClick={() => setActive(false)}>
+        <ul className='spaces' onClick={() => setActive(false)}>
           <li>
             <Link className='link' to="/">Home</Link>
           </li>
